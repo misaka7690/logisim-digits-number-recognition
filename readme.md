@@ -11,6 +11,7 @@
 - `train.py`: 训练神经网络
 - `hdf5totxt`: 将HDF5格式的神经网络权值转化为int类型的神经网络权值
 - `np2num.py`: 将np.array格式的数据存储为8x8像素数字存储在num.txt中
+- `int2hex.py`: 将所有权值数据转为连续存储的三十二位十六进制数据以便加载在logisim中的ROM中
 - `pred.py`: 模拟logism对num.txt中的8x8像素数字进行识别
 - `hdf_files`: 存储神经网络权值(HDF5格式)
 - `weights`: 存储转化为int类型的神经网络权值
