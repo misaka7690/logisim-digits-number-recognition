@@ -1,6 +1,6 @@
 # 8x8像素数字识别
 
-该项目为`利用logisim实现的24条指令CPU来实现神经网络识别8x8像素数字识别`的上游任务,主要实现
+该项目为`利用logisim实现的24+4条指令CPU来实现神经网络识别8x8像素数字识别`的上游任务,主要实现
 
 - 利用keras的神经网络对sklearn自带8x8手写数字数据集进行训练
 - 将训练权值保存为HDF5文件并转为整形存储在txt文本中以便将来导入logism中的存储器中
@@ -13,6 +13,7 @@
 - `np2num.py`: 将np.array格式的数据存储为8x8像素数字存储在num.txt中
 - `int2hex.py`: 将所有权值数据转为连续存储的三十二位十六进制数据以便加载在logisim中的ROM中
 - `pred.py`: 模拟logism对num.txt中的8x8像素数字进行识别
+- `hex_hack_in_logisim.py`: 该文件用来将hex指令直接hack进circ文件中的ROM中
 - `hdf_files`: 存储神经网络权值(HDF5格式)
 - `weights`: 存储转化为int类型的神经网络权值
 - `num.txt`: 0-1表示的8x8像素数字
