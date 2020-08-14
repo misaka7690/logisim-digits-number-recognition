@@ -2,6 +2,8 @@
 
 该项目为`利用logisim实现的24+4条指令CPU来实现神经网络识别8x8像素数字识别`.
 
+[B站团队演示视频](https://www.bilibili.com/video/BV1gp4y1v7U1)
+
 - 利用keras的神经网络对sklearn自带8x8手写数字数据集进行训练
 - 将训练权值保存为HDF5文件并转为整形存储在txt文本中以便将来导入logism中的存储器中
 - 使用python简单的模拟logism对预测过程进行测试
