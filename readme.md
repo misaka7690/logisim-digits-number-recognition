@@ -17,6 +17,7 @@
 - `hdf_files`: 存储神经网络权值(HDF5格式)
 - `weights`: 存储转化为int类型的神经网络权值
 - `num.txt`: 0-1表示的8x8像素数字
+- `logisim_files`: logisim实现文件,完整可运行
 
 ## 结果说明
 
